@@ -1,0 +1,156 @@
+/*GOOGLE FONTS*/
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Expletus+Sans&family=Signika&display=swap");
+/*H1 Font :*/
+/*H2 Font :*/
+/*P Font :*/
+
+/*PC SIZE*/
+
+/*NAV*/
+.navbar-brand {
+  color: #252a34;
+  font-family: "Bebas Neue", cursive;
+  font-size: 2.2rem;
+}
+
+.navbar-brand-ai {
+  color: #ff2e63;
+}
+
+.nav-link {
+  font-family: "Signika", sans-serif;
+  font-size: 1.1rem;
+  margin: 0 15px;
+  transition: 350ms;
+}
+
+.nav-link:hover {
+  color: #ff2e63;
+  font-size: 1.15rem;
+  transition: 350ms;
+}
+
+/*HEADER*/
+
+header {
+  padding: 40px 0;
+}
+
+.header-title {
+  color: #252a34;
+  font-family: "Bebas Neue", cursive;
+  font-size: 5rem;
+  line-height: 1;
+}
+
+.header-paragraph {
+  line-height: 1.8;
+  margin-bottom: 70px;
+  font-family: "Signika", sans-serif;
+  font-size: 1.05rem;
+}
+
+.header-Image {
+  width: 600px;
+}
+
+.header-btn {
+  background-color: #08d9d6;
+  border: none;
+  font-family: "Signika", sans-serif;
+  font-size: 1.3rem;
+  transition: 0.25s;
+}
+
+.header-btn:hover {
+  background-color: #ff2e63;
+  transition: 0.25s;
+}
+
+.header-vertical-line {
+  border-left: 1px solid white;
+  margin: 0 10px;
+}
+
+/*MAIN*/
+
+/*  -> OUR GOALS SECTION*/
+
+.goals-section {
+  padding: 25px 0;
+}
+
+.goal-item {
+  margin-bottom: 20px;
+}
+
+.goal-Image {
+  width: 270px;
+}
+
+.goal-title {
+  font-family: "Signika", sans-serif;
+}
+
+.goal-paragraph {
+  font-family: "Signika", sans-serif;
+  width: 75%;
+  display: inline-block;
+}
+
+/*  -> ABOUT SECTION*/
+
+.about-section {
+  background-color: #e7ecff;
+  margin-top: 50px;
+  padding: 30px 0;
+}
+
+.about-image {
+  width: 250px;
+  margin: auto 0;
+}
+
+.about-title {
+  font-family: "Expletus Sans", cursive;
+  font-size: 2.5rem;
+  font-weight: bold;
+  background-color: #ff2e63;
+  display: inline-block;
+  padding: 0 7.5px;
+  color: #f8f9fa;
+}
+
+.about-paragraph {
+  line-height: 1.8;
+  margin-top: 20px;
+  font-family: "Signika", sans-serif;
+  font-size: 1.05rem;
+}
+
+.about-button {
+  background-color: #08d9d6;
+  border: none;
+  font-family: "Signika", sans-serif;
+  font-size: 1.15rem;
+  transition: 0.25s;
+  margin-top: 40px;
+}
+
+.about-button:hover {
+  background-color: #ff2e63;
+  transition: 0.25s;
+}
+
+/*FOOTER*/
+
+/*PHONE SIZE*/
+
+@media (max-width: 992px) {
+  header {
+    padding: 200px 0;
+  }
+}
+
+/*TABLET SIZE*/
+/*...*/
